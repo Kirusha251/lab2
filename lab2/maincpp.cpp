@@ -16,6 +16,10 @@ int main()
 	cin >> num;
 	m.setNumbersOfCopies(num);
 	cout << "-----" << m.getNumbersOfCopies() << endl;
+	Textbook s;
+	s.setName("privet");
+	s.getName();
+	s.
 	system("pause");
 		return 0;
 }

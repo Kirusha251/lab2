@@ -11,10 +11,6 @@ Magazine::~Magazine(void)
 	std::cout << "Вызван деструктор " << std::endl;
 }
 
-void Magazine::setAuthor(char *author)
-{
-	this->author = author;
-}
 
 void Magazine::setName(char *name)
 {
@@ -36,19 +32,14 @@ void Magazine::setNumbersOfPages(int num)
 	this->numbersOfPages = num;
 }
 
-int Magazine::getAuthor()
-{
-	return *this->author;
-}
 
-int Magazine::getName()
+void Magazine::getName()
 {
-	return *this->name;
+	std::cout << this->name << std::endl;
 }
-
-int Magazine::getTheme()
+void Magazine::getTheme()
 {
-	return *this->theme;
+	std::cout << this->theme << std::endl;
 }
 
 int Magazine::getNumbersOfCopies()
