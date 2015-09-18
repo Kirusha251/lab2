@@ -19,7 +19,13 @@ int main()
 	Textbook s;
 	s.setName("privet");
 	s.getName();
-	s.
+	s.setNumbersOfCopies(2);
+	cout << s.getNumbersOfCopies() << endl;
+	Book b;
+	b.setGenre("comedy");
+	b.getGenre();
+	b.setNumbersOfCopies(123);
+	cout << b.getNumbersOfCopies() << endl;
 	system("pause");
 		return 0;
 }
