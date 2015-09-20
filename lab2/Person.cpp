@@ -26,3 +26,18 @@ void Person::setDateofBirthday(char *birth)
 {
 	this->setDateofBirthday = birth;
 }
+
+void Person::getName()
+{
+	std::cout << this->Name << std::endl;
+}
+
+void Person::getDateofBirthday()
+{
+	std::cout << this->dateofBirthday << std::endl;
+}
+
+void Person::getSurname()
+{
+	std::cout << this->Surname << std::endl;
+}
