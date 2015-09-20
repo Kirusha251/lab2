@@ -1,8 +1,8 @@
 #pragma once
-#include"magazine.h"
+#include "print.h"
 
 class Textbook: 
-	public Magazine
+	public Print
 {
 	int form;
 	char *subject;

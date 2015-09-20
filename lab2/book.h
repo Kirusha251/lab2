@@ -1,10 +1,10 @@
 #pragma once
-#include "magazine.h"
+#include "print.h"
 
 
 
 class Book :
-	public Magazine
+	public Print
 {
 	int numberOfparts;
 	char *genre;
