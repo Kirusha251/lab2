@@ -4,16 +4,16 @@
 class Print:
 	public Publishing_Office
 {
-	char *name;
+	char *nameObj;
 	int numbersOfCopies;
 	int numbersOfPages;
 public:
 	Print(void);
 	~Print(void);
-	void setName(char *name);
+	void setNameObj(char *name);
 	void setNumbersOfCopies(int num);
 	void setNumbersOfPages(int num);
-	void getName();
+	void getNameObj();
 	int getNumbersOfCopies();
 	int getNumbersOfPages();
 

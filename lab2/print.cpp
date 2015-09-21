@@ -12,9 +12,9 @@ Print::~Print(void)
 }
 
 
-void Print::setName(char *name)
+void Print::setNameObj(char *name)
 {
-	this->name = name;
+	this->nameObj = name;
 }
 
 
@@ -30,9 +30,9 @@ void Print::setNumbersOfPages(int num)
 }
 
 
-void Print::getName()
+void Print::getNameObj()
 {
-	std::cout << this->name << std::endl;
+	std::cout << this->nameObj << std::endl;
 }
 
 int	Print::getNumbersOfCopies()

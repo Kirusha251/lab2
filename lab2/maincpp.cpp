@@ -64,8 +64,8 @@ int main()
 	pr.getNameOfOffice();
 	pr.getOfficeAddress();
 	cout << "Название Книги/Журнала/Учебника:";
-	pr.setName("Мяч");
-	pr.getName();
+	pr.setNameObj("Мяч");
+	pr.getNameObj();
 	pr.setNumbersOfCopies(2134);
 	cout << "Количествой копий:" << pr.getNumbersOfCopies() << endl;
 	pr.setNumbersOfPages(352);
@@ -83,8 +83,8 @@ int main()
 	mag.setOfficeAddress("Белорусская, 21");
 	mag.getNameOfOffice();
 	mag.getOfficeAddress();
-	mag.setName("Мяч");
-	mag.getName();
+	mag.setNameObj("Мяч");
+	mag.getNameObj();
 	mag.setNumbersOfCopies(2134);
 	cout << "Количествой копий:" << mag.getNumbersOfCopies() << endl;
 	mag.setNumbersOfPages(352);

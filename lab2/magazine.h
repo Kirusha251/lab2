@@ -1,9 +1,10 @@
 #pragma once
 #include "print.h"
+#include "author.h"
 
 
 class Magazine:
-	public Print
+	public Print,Author
 {
 	char *theme;
 public:
