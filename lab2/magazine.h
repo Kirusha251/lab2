@@ -3,8 +3,7 @@
 #include "author.h"
 
 
-class Magazine:
-	public Print,Author
+class Magazine:public Print, public Author
 {
 	char *theme;
 public:
