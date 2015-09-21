@@ -22,9 +22,9 @@ void Person::setSurname(char *surname)
 	this->Surname = surname;
 }
 
-void Person::setDateofBirthday(char *birth)
+void Person::setDateofBirthday(char *birthday)
 {
-	this->setDateofBirthday = birth;
+	this->dateofBirthday =birthday;
 }
 
 void Person::getName()

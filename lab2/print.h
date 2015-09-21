@@ -1,7 +1,8 @@
 #pragma once
+#include"publishing_office.h"
 
-
-class Print
+class Print:
+	public Publishing_Office
 {
 	char *name;
 	int numbersOfCopies;

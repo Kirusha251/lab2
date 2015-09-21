@@ -11,7 +11,7 @@ class Book :
 public:
 	Book(void);
 	~Book(void);
-	void setNumbCop(int cop);
+	void setNumbparts(int cop);
 	void setGenre(char *genre);
 	int getNumpCop();
 	void getGenre();

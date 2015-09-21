@@ -18,7 +18,7 @@ void Book::setGenre(char *gen)
 	this->genre = gen;
 }
 
-void Book::setNumbCop(int cop)
+void Book::setNumbparts(int cop)
 {
 	this->numberOfparts = cop;
 }
