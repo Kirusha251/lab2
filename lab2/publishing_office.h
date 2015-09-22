@@ -11,6 +11,6 @@ public:
 	~Publishing_Office(void);
 	void setNameOfOffice(char *name);
 	void setOfficeAddress(char *Address);
-	void getNameOfOffice();
-	void getOfficeAddress();
+	char* getNameOfOffice();
+	char* getOfficeAddress();
 };

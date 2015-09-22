@@ -4,12 +4,12 @@
 
 Publishing_Office::Publishing_Office(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called Punlishing Office " << std::endl;
 }
 
 Publishing_Office::~Publishing_Office(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Destructor is called Punlishing Office " << std::endl;
 }
 
 void Publishing_Office::setNameOfOffice(char *name)
@@ -21,13 +21,12 @@ void Publishing_Office::setOfficeAddress(char *address)
 {
 	this->OfficeAddress = address;
 }
-
-void Publishing_Office::getNameOfOffice()
+char* Publishing_Office::getNameOfOffice()
 {
-	std::cout << this->NameOfOffice << std::endl;
+	return this->NameOfOffice;
 }
 
-void Publishing_Office::getOfficeAddress()
+char* Publishing_Office::getOfficeAddress()
 {
-	std::cout << this->OfficeAddress<< std::endl;
+	return this->OfficeAddress;
 }

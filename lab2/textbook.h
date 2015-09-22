@@ -11,6 +11,6 @@ public:
 	void setForm(int form);
 	void setSubject(char *subject);
 	int getForm();
-	void getSubject();
+	char* getSubject();
 	~Textbook(void);
 };

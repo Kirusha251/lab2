@@ -4,12 +4,12 @@
 
 Author::Author(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called Author" << std::endl;
 }
 
 Author::~Author(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Destructor is called Author" << std::endl;
 }
 
 void Author::setFirsBook(char *first)
@@ -22,12 +22,12 @@ void Author::setNumbersOfBooks(int num)
 	this->numbersOfBooks = num;
 }
 
-void Author::getFirstBook()
+char* Author::getFirstBook()
 {
-	std::cout <<this->firstbook << std::endl;
+	return this->firstbook; 
 }
 
-void Author::getNumbersOfbooks()
+int  Author::getNumbersOfbooks()
 {
-	std::cout << this->numbersOfBooks << std::endl;
+	return this->numbersOfBooks;
 }

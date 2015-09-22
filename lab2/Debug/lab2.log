@@ -1,4 +1,4 @@
-﻿Build started 21.09.2015 23:32:04.
+﻿Build started 22.09.2015 16:17:58.
      1>Project "E:\Projects\lab2\lab2\lab2\lab2.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          E:\Microsoft visual 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt maincpp.cpp
@@ -12,9 +12,9 @@
          Debug\print.obj
          Debug\publishing_office.obj
          Debug\textbook.obj
-         lab2.vcxproj -> E:\Projects\lab2\lab2\lab2\Debug\lab2.exe
-     1>Done Building Project "E:\Projects\lab2\lab2\lab2\lab2.vcxproj" (Build target(s)).
+     1>LINK : fatal error LNK1168: cannot open E:\Projects\lab2\lab2\lab2\Debug\lab2.exe for writing
+     1>Done Building Project "E:\Projects\lab2\lab2\lab2\lab2.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.49
+Time Elapsed 00:00:00.62

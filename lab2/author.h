@@ -11,7 +11,7 @@ public:
 	~Author(void);
 	void setNumbersOfBooks(int num);
 	void setFirsBook(char *first);
-	void getNumbersOfbooks();
-	void getFirstBook();
+	int getNumbersOfbooks();
+	char* getFirstBook();
 
 };

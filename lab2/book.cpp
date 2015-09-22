@@ -3,12 +3,12 @@
 
 Book::Book(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called Book" << std::endl;
 }
 
 Book::~Book(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Destructor is called Book" << std::endl;
 }
 
 
@@ -28,9 +28,25 @@ int Book::getNumpCop()
 	return this->numberOfparts;
 }
 
-void Book::getGenre()
+char* Book::getGenre()
 {
-	std::cout <<this->genre<< std::endl;
+	return this->genre;
+}
+
+void Book::setAuth(char *name, char *surname)
+{
+	this->AuthName.setName(name);
+	this->AuthName.setSurname(surname);
+}
+
+char* Book::getAuthName()
+{
+	return this->AuthName.getName();
+}
+
+char* Book::getAuthSurname()
+{
+	return this->AuthName.getSurname();
 }
 
 

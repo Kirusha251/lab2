@@ -3,12 +3,12 @@
 #include "author.h"
 
 
-class Magazine:public Print, public Author
+class Magazine:public Print
 {
 	char *theme;
 public:
 	Magazine(void);
 	~Magazine(void);
 	void setTheme(char *theme);
-	void getTheme();
+	char* getTheme();
 };

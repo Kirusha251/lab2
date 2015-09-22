@@ -3,12 +3,12 @@
 
 Magazine::Magazine(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called Printed edition" << std::endl;
 }
 
 Magazine::~Magazine(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Destructor is called Printed edition" << std::endl;
 }
 
 
@@ -18,7 +18,7 @@ void Magazine::setTheme(char *theme)
 }
 
 
-void Magazine::getTheme()
+char* Magazine::getTheme()
 {
-	std::cout << this->theme << std::endl;
+	return this->theme;
 }

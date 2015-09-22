@@ -12,7 +12,7 @@ public :
 	void setName(char *name);
 	void setSurname(char *surname);
 	void setDateofBirthday(char *birth);
-	void getName();
-	void getSurname();
-	void getDateofBirthday();
+	char* getName();
+	char* getSurname();
+	char* getDateofBirthday();
 };

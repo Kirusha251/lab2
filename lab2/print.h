@@ -13,7 +13,7 @@ public:
 	void setNameObj(char *name);
 	void setNumbersOfCopies(int num);
 	void setNumbersOfPages(int num);
-	void getNameObj();
+	char* getNameObj();
 	int getNumbersOfCopies();
 	int getNumbersOfPages();
 

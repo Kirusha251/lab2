@@ -3,12 +3,12 @@
 
 Print::Print(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called Printed edition " << std::endl;
 }
 
 Print::~Print(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Denstructor is called Printed edition" << std::endl;
 }
 
 
@@ -30,9 +30,9 @@ void Print::setNumbersOfPages(int num)
 }
 
 
-void Print::getNameObj()
+char* Print::getNameObj()
 {
-	std::cout << this->nameObj << std::endl;
+	return this->nameObj;
 }
 
 int	Print::getNumbersOfCopies()

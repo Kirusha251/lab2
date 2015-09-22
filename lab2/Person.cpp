@@ -4,12 +4,12 @@
 
 Person::Person(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called Person" << std::endl;
 }
 
 Person::~Person(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Destructor is called Person" << std::endl;
 }
 
 void Person::setName(char *name)
@@ -27,17 +27,17 @@ void Person::setDateofBirthday(char *birthday)
 	this->dateofBirthday =birthday;
 }
 
-void Person::getName()
+char* Person::getName()
 {
-	std::cout << this->Name << std::endl;
+	return this->Name;
 }
 
-void Person::getDateofBirthday()
+char* Person::getDateofBirthday()
 {
-	std::cout << this->dateofBirthday << std::endl;
+	return this->dateofBirthday;
 }
 
-void Person::getSurname()
+char* Person::getSurname()
 {
-	std::cout << this->Surname << std::endl;
+	return this->Surname;
 }

@@ -5,12 +5,12 @@
 
 Textbook:: Textbook(void)
 {
-	std::cout << "Вызван конструктор по умолчанию" << std::endl;
+	std::cout << "Constructor is called TextBook" << std::endl;
 }
 
 Textbook:: ~Textbook(void)
 {
-	std::cout << "Вызван деструктор " << std::endl;
+	std::cout << "Destructor is called TextBook" << std::endl;
 }
 
 void Textbook::setForm(int form)
@@ -28,7 +28,7 @@ int Textbook::getForm()
 	return this->form;
 }
 
-void Textbook::getSubject()
+char* Textbook::getSubject()
 {
-	std::cout<<this->subject<<std::endl;
+	return this->subject;
 }
